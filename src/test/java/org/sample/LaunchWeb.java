@@ -2,6 +2,7 @@ package org.sample;
 
 import java.util.List;
 
+import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -68,6 +69,10 @@ public class LaunchWeb {
 	  String text = findElement2.getText();
 		System.out.println(text);
 		Thread.sleep(2000);
+		
+		System.out.println("sdfghhgyg");
+		
+		System.out.println("eoakjhjhfa");
 		//driver.quit();
 	}
 
